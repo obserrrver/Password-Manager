@@ -13,7 +13,7 @@ std::string passwordGenerator() {
 }
 int main() {
 	std::fstream fs;
-	fs.open("C:/Users/John Galt/Desktop/passwords.txt", std::fstream::in | std::fstream::out | std::fstream::app);
+	fs.open("passwords.txt", std::fstream::in | std::fstream::out | std::fstream::app);
 	std::string domain;
 	std::cout << "Enter domain name: (q to exit): ";
 	std::cin >> domain;
